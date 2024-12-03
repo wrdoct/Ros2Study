@@ -1,0 +1,2 @@
+Invoking command in '/home/llw/git/ros2-study/chapt2/chapt3_ws/build/pkg_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/llw/git/ros2-study/chapt2/chapt3_ws/build/pkg_cpp -- -j16 -l16
+Invoked command in '/home/llw/git/ros2-study/chapt2/chapt3_ws/build/pkg_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/llw/git/ros2-study/chapt2/chapt3_ws/build/pkg_cpp -- -j16 -l16

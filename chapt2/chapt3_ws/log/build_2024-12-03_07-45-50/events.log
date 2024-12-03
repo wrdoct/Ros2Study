@@ -1,0 +1,130 @@
+[0.000000] (-) TimerEvent: {}
+[0.000513] (pkg_cpp) JobQueued: {'identifier': 'pkg_cpp', 'dependencies': OrderedDict()}
+[0.000888] (pkg_cpp) JobStarted: {'identifier': 'pkg_cpp'}
+[0.013035] (pkg_cpp) JobProgress: {'identifier': 'pkg_cpp', 'progress': 'cmake'}
+[0.013652] (pkg_cpp) JobProgress: {'identifier': 'pkg_cpp', 'progress': 'build'}
+[0.014539] (pkg_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/llw/git/ros2-study/chapt2/chapt3_ws/build/pkg_cpp', '--', '-j16', '-l16'], 'cwd': '/home/llw/git/ros2-study/chapt2/chapt3_ws/build/pkg_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'llw'), ('SSH_CLIENT', '192.168.31.104 1413 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/llw/.vscode-server/cli/servers/Stable-912bb683695358a54ae0c670461738984cbb5b95/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/llw/.vscode-server/cli/servers/Stable-912bb683695358a54ae0c670461738984cbb5b95/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/llw'), ('OLDPWD', '/home/llw/git/ros2-study/chapt2/chapt3_ws/src'), ('TERM_PROGRAM_VERSION', '1.95.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-fc8d9d11-a567-4964-9ba2-a9e2c241c9a3.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/llw/.vscode-server/cli/servers/Stable-912bb683695358a54ae0c670461738984cbb5b95/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/llw/.vscode-server/cli/servers/Stable-912bb683695358a54ae0c670461738984cbb5b95/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/llw/git/ros2-study/chapt2/chapt3_ws/install:/home/llw/git/ros2-study/chapt2/chapt2_ws/install:/home/llw/git/ros2-study/package_example_cpp/install:/home/llw/git/ros2-study/chapt2/install:/home/llw/git/ros2-study/package_example_cpp/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'llw'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', ':/usr/local/lib/pkgconfig:/usr/local/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/llw/.vscode-server/cli/servers/Stable-912bb683695358a54ae0c670461738984cbb5b95/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('DISPLAY', '192.168.31.104:0.0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-95c1c7973e.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/llw/git/ros2-study/chapt2/chapt3_ws/install/pkg_cpp:/home/llw/git/ros2-study/chapt2/chapt2_ws/install/demo_cpp_pkg:/home/llw/git/ros2-study/chapt2/install/demo_cpp_pkg:/home/llw/git/ros2-study/package_example_cpp/src/install/example_cpp:/home/llw/git/ros2-study/package_example_cpp/install/example_cpp:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/llw/git/ros2-study/chapt2/chapt3_ws/build/pkg_cpp'), ('SSH_CONNECTION', '192.168.31.104 1413 192.168.31.100 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/llw/git/ros2-study/chapt2/chapt3_ws/install/pkg_cpp:/home/llw/git/ros2-study/chapt2/chapt2_ws/install/demo_cpp_pkg:/home/llw/git/ros2-study/chapt2/install/demo_cpp_pkg:/home/llw/git/ros2-study/package_example_cpp/src/install/example_cpp:/home/llw/git/ros2-study/package_example_cpp/install/example_cpp:/opt/ros/humble')]), 'shell': False}
+[0.043153] (pkg_cpp) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099651] (-) TimerEvent: {}
+[0.173641] (pkg_cpp) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.199750] (-) TimerEvent: {}
+[0.203710] (pkg_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.206752] (pkg_cpp) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.213459] (pkg_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.224668] (pkg_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.238692] (pkg_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.275243] (pkg_cpp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.276977] (pkg_cpp) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.299834] (-) TimerEvent: {}
+[0.378454] (pkg_cpp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.399922] (-) TimerEvent: {}
+[0.435616] (pkg_cpp) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.500051] (-) TimerEvent: {}
+[0.527827] (pkg_cpp) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.528080] (pkg_cpp) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/llw/git/ros2-study/chapt2/chapt3_ws/src/pkg_cpp/include\n'}
+[0.528173] (pkg_cpp) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.529896] (pkg_cpp) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.532714] (pkg_cpp) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.534160] (pkg_cpp) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.542872] (pkg_cpp) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.542961] (pkg_cpp) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.544804] (pkg_cpp) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.545886] (pkg_cpp) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.561385] (pkg_cpp) StdoutLine: {'line': b'-- Generating done\n'}
+[0.567698] (pkg_cpp) StdoutLine: {'line': b'-- Build files have been written to: /home/llw/git/ros2-study/chapt2/chapt3_ws/build/pkg_cpp\n'}
+[0.596503] (pkg_cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target test_auto\x1b[0m\n'}
+[0.597011] (pkg_cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target person_node\x1b[0m\n'}
+[0.600140] (-) TimerEvent: {}
+[0.607004] (pkg_cpp) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/learn_thread.dir/src/learn_thread.cpp.o\x1b[0m\n'}
+[0.610155] (pkg_cpp) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/test_auto.dir/src/test_auto.cpp.o\x1b[0m\n'}
+[0.618192] (pkg_cpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/person_node.dir/src/person_node.cpp.o\x1b[0m\n'}
+[0.700294] (-) TimerEvent: {}
+[0.800696] (-) TimerEvent: {}
+[0.873160] (pkg_cpp) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable test_auto\x1b[0m\n'}
+[0.900840] (-) TimerEvent: {}
+[0.961992] (pkg_cpp) StdoutLine: {'line': b'[ 66%] Built target test_auto\n'}
+[1.001032] (-) TimerEvent: {}
+[1.101462] (-) TimerEvent: {}
+[1.201880] (-) TimerEvent: {}
+[1.302305] (-) TimerEvent: {}
+[1.402766] (-) TimerEvent: {}
+[1.503238] (-) TimerEvent: {}
+[1.603648] (-) TimerEvent: {}
+[1.704080] (-) TimerEvent: {}
+[1.804513] (-) TimerEvent: {}
+[1.904966] (-) TimerEvent: {}
+[2.005375] (-) TimerEvent: {}
+[2.105803] (-) TimerEvent: {}
+[2.206226] (-) TimerEvent: {}
+[2.306651] (-) TimerEvent: {}
+[2.407170] (-) TimerEvent: {}
+[2.507587] (-) TimerEvent: {}
+[2.608085] (-) TimerEvent: {}
+[2.708484] (-) TimerEvent: {}
+[2.808828] (-) TimerEvent: {}
+[2.909226] (-) TimerEvent: {}
+[3.009557] (-) TimerEvent: {}
+[3.109902] (-) TimerEvent: {}
+[3.210238] (-) TimerEvent: {}
+[3.310658] (-) TimerEvent: {}
+[3.410999] (-) TimerEvent: {}
+[3.511390] (-) TimerEvent: {}
+[3.611716] (-) TimerEvent: {}
+[3.712037] (-) TimerEvent: {}
+[3.812367] (-) TimerEvent: {}
+[3.912690] (-) TimerEvent: {}
+[4.013089] (-) TimerEvent: {}
+[4.019463] (pkg_cpp) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable person_node\x1b[0m\n'}
+[4.113209] (-) TimerEvent: {}
+[4.145922] (pkg_cpp) StdoutLine: {'line': b'[ 83%] Built target person_node\n'}
+[4.213314] (-) TimerEvent: {}
+[4.313604] (-) TimerEvent: {}
+[4.413902] (-) TimerEvent: {}
+[4.514200] (-) TimerEvent: {}
+[4.614501] (-) TimerEvent: {}
+[4.714801] (-) TimerEvent: {}
+[4.815116] (-) TimerEvent: {}
+[4.915417] (-) TimerEvent: {}
+[5.015701] (-) TimerEvent: {}
+[5.115993] (-) TimerEvent: {}
+[5.216356] (-) TimerEvent: {}
+[5.316647] (-) TimerEvent: {}
+[5.416939] (-) TimerEvent: {}
+[5.517232] (-) TimerEvent: {}
+[5.617598] (-) TimerEvent: {}
+[5.717892] (-) TimerEvent: {}
+[5.818204] (-) TimerEvent: {}
+[5.918495] (-) TimerEvent: {}
+[6.018799] (-) TimerEvent: {}
+[6.119211] (-) TimerEvent: {}
+[6.214785] (pkg_cpp) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable learn_thread\x1b[0m\n'}
+[6.219293] (-) TimerEvent: {}
+[6.319551] (-) TimerEvent: {}
+[6.419933] (-) TimerEvent: {}
+[6.446191] (pkg_cpp) StdoutLine: {'line': b'[100%] Built target learn_thread\n'}
+[6.458372] (pkg_cpp) CommandEnded: {'returncode': 0}
+[6.459180] (pkg_cpp) JobProgress: {'identifier': 'pkg_cpp', 'progress': 'install'}
+[6.468542] (pkg_cpp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/llw/git/ros2-study/chapt2/chapt3_ws/build/pkg_cpp'], 'cwd': '/home/llw/git/ros2-study/chapt2/chapt3_ws/build/pkg_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'llw'), ('SSH_CLIENT', '192.168.31.104 1413 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/llw/.vscode-server/cli/servers/Stable-912bb683695358a54ae0c670461738984cbb5b95/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/llw/.vscode-server/cli/servers/Stable-912bb683695358a54ae0c670461738984cbb5b95/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/llw'), ('OLDPWD', '/home/llw/git/ros2-study/chapt2/chapt3_ws/src'), ('TERM_PROGRAM_VERSION', '1.95.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-fc8d9d11-a567-4964-9ba2-a9e2c241c9a3.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/llw/.vscode-server/cli/servers/Stable-912bb683695358a54ae0c670461738984cbb5b95/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/llw/.vscode-server/cli/servers/Stable-912bb683695358a54ae0c670461738984cbb5b95/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/llw/git/ros2-study/chapt2/chapt3_ws/install:/home/llw/git/ros2-study/chapt2/chapt2_ws/install:/home/llw/git/ros2-study/package_example_cpp/install:/home/llw/git/ros2-study/chapt2/install:/home/llw/git/ros2-study/package_example_cpp/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'llw'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', ':/usr/local/lib/pkgconfig:/usr/local/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/llw/.vscode-server/cli/servers/Stable-912bb683695358a54ae0c670461738984cbb5b95/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('DISPLAY', '192.168.31.104:0.0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-95c1c7973e.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/llw/git/ros2-study/chapt2/chapt3_ws/install/pkg_cpp:/home/llw/git/ros2-study/chapt2/chapt2_ws/install/demo_cpp_pkg:/home/llw/git/ros2-study/chapt2/install/demo_cpp_pkg:/home/llw/git/ros2-study/package_example_cpp/src/install/example_cpp:/home/llw/git/ros2-study/package_example_cpp/install/example_cpp:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/llw/git/ros2-study/chapt2/chapt3_ws/build/pkg_cpp'), ('SSH_CONNECTION', '192.168.31.104 1413 192.168.31.100 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/llw/git/ros2-study/chapt2/chapt3_ws/install/pkg_cpp:/home/llw/git/ros2-study/chapt2/chapt2_ws/install/demo_cpp_pkg:/home/llw/git/ros2-study/chapt2/install/demo_cpp_pkg:/home/llw/git/ros2-study/package_example_cpp/src/install/example_cpp:/home/llw/git/ros2-study/package_example_cpp/install/example_cpp:/opt/ros/humble')]), 'shell': False}
+[6.476097] (pkg_cpp) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.476377] (pkg_cpp) StdoutLine: {'line': b'-- Installing: /home/llw/git/ros2-study/chapt2/chapt3_ws/install/pkg_cpp/lib/pkg_cpp/person_node\n'}
+[6.476972] (pkg_cpp) StdoutLine: {'line': b'-- Set runtime path of "/home/llw/git/ros2-study/chapt2/chapt3_ws/install/pkg_cpp/lib/pkg_cpp/person_node" to ""\n'}
+[6.477268] (pkg_cpp) StdoutLine: {'line': b'-- Installing: /home/llw/git/ros2-study/chapt2/chapt3_ws/install/pkg_cpp/lib/pkg_cpp/test_auto\n'}
+[6.477476] (pkg_cpp) StdoutLine: {'line': b'-- Installing: /home/llw/git/ros2-study/chapt2/chapt3_ws/install/pkg_cpp/lib/pkg_cpp/learn_thread\n'}
+[6.479968] (pkg_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/llw/git/ros2-study/chapt2/chapt3_ws/install/pkg_cpp/share/ament_index/resource_index/package_run_dependencies/pkg_cpp\n'}
+[6.480168] (pkg_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/llw/git/ros2-study/chapt2/chapt3_ws/install/pkg_cpp/share/ament_index/resource_index/parent_prefix_path/pkg_cpp\n'}
+[6.480283] (pkg_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/llw/git/ros2-study/chapt2/chapt3_ws/install/pkg_cpp/share/pkg_cpp/environment/ament_prefix_path.sh\n'}
+[6.480352] (pkg_cpp) StdoutLine: {'line': b'-- Installing: /home/llw/git/ros2-study/chapt2/chapt3_ws/install/pkg_cpp/share/pkg_cpp/environment/ament_prefix_path.dsv\n'}
+[6.480479] (pkg_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/llw/git/ros2-study/chapt2/chapt3_ws/install/pkg_cpp/share/pkg_cpp/environment/path.sh\n'}
+[6.480548] (pkg_cpp) StdoutLine: {'line': b'-- Installing: /home/llw/git/ros2-study/chapt2/chapt3_ws/install/pkg_cpp/share/pkg_cpp/environment/path.dsv\n'}
+[6.480674] (pkg_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/llw/git/ros2-study/chapt2/chapt3_ws/install/pkg_cpp/share/pkg_cpp/local_setup.bash\n'}
+[6.480734] (pkg_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/llw/git/ros2-study/chapt2/chapt3_ws/install/pkg_cpp/share/pkg_cpp/local_setup.sh\n'}
+[6.480788] (pkg_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/llw/git/ros2-study/chapt2/chapt3_ws/install/pkg_cpp/share/pkg_cpp/local_setup.zsh\n'}
+[6.480854] (pkg_cpp) StdoutLine: {'line': b'-- Installing: /home/llw/git/ros2-study/chapt2/chapt3_ws/install/pkg_cpp/share/pkg_cpp/local_setup.dsv\n'}
+[6.480961] (pkg_cpp) StdoutLine: {'line': b'-- Installing: /home/llw/git/ros2-study/chapt2/chapt3_ws/install/pkg_cpp/share/pkg_cpp/package.dsv\n'}
+[6.481127] (pkg_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/llw/git/ros2-study/chapt2/chapt3_ws/install/pkg_cpp/share/ament_index/resource_index/packages/pkg_cpp\n'}
+[6.481238] (pkg_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/llw/git/ros2-study/chapt2/chapt3_ws/install/pkg_cpp/share/pkg_cpp/cmake/pkg_cppConfig.cmake\n'}
+[6.481295] (pkg_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/llw/git/ros2-study/chapt2/chapt3_ws/install/pkg_cpp/share/pkg_cpp/cmake/pkg_cppConfig-version.cmake\n'}
+[6.481348] (pkg_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/llw/git/ros2-study/chapt2/chapt3_ws/install/pkg_cpp/share/pkg_cpp/package.xml\n'}
+[6.482716] (pkg_cpp) CommandEnded: {'returncode': 0}
+[6.501933] (pkg_cpp) JobEnded: {'identifier': 'pkg_cpp', 'rc': 0}
+[6.502764] (-) EventReactorShutdown: {}

@@ -4,16 +4,8 @@
             "name": "Linux",
             "includePath": [
                 "${workspaceFolder}/**",
-                "/opt/ros/humble/include",
-                "/opt/ros/humble/include/rclcpp",
-                "/opt/ros/humble/include/rcl",
-                "/opt/ros/humble/include/rmw",
-                "/opt/ros/humble/include/rosidl_runtime_c",
-                "/opt/ros/humble/include/rosidl_runtime_cpp",
-                "/opt/ros/humble/include/rosidl_typesupport_interface",
-                "/opt/ros/humble/include/rosidl_typesupport_c",
-                "/opt/ros/humble/include/builtin_interfaces",
-                "/opt/ros/humble/include/**"
+                "/opt/ros/humble/include/**",
+                "${workspaceFolder}/chapt2/chapt3_ws/src/pkg_cpp/include"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/gcc",

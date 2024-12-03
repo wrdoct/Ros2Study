@@ -17,11 +17,11 @@ find_package(rclcpp REQUIRED)
 # message(STATUS "rclcpp_INCLUDE_DIRS: ${rclcpp_INCLUDE_DIRS}")
 # message(STATUS "rclcpp_LIBRARIES: ${rclcpp_LIBRARIES}")
 # # 为目标指定包含目录
-# target_include_directories(cpp_node PUBLIC ${rclcpp_INCLUDE_DIRS})
-# target_link_libraries(cpp_node ${rclcpp_LIBRARIES})
+# target_include_directories(cpp_node PUBLIC ${rclcpp_INCLUDE_DIRS}) # 头文件包含
+# target_link_libraries(cpp_node ${rclcpp_LIBRARIES}) # 库文件链接
 # 将rclcpp库链接到cpp_node目标
 ament_target_dependencies(cpp_node rclcpp)
-
+# 将可执行文件安装到项目的lib/<PROJECT_NAME>目录下
 install(TARGETS
   cpp_node
   DESTINATION lib/${PROJECT_NAME}
