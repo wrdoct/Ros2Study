@@ -38,7 +38,7 @@ int main()
     {
         std::cout << "下载完成" << path << ":" << res.length() << "->" << res.substr(0, 6) << std::endl;
     };
-    d.start_download("http://0.0.0.0:8000", "/aaa.txt", word_count); // python3 -m http.server
+    d.start_download("http://0.0.0.0:8000", "/aaa.txt", word_count); // llw@llwubuntuserver:~/git/ros2-study/chapt2/chapt3_ws$ python3 -m http.server
     d.start_download("http://0.0.0.0:8000", "/bbb.txt", word_count);
     d.start_download("http://0.0.0.0:8000", "/ccc.txt", word_count);
 

@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.8)
-project(pkg_cpp)
+project(pkg_cpp_topic)
 
 if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra -Wpedantic)
@@ -7,25 +7,18 @@ endif()
 
 # find dependencies
 find_package(ament_cmake REQUIRED)
-# uncomment the following section in order to fill in
-# further dependencies manually.
-# find_package(<dependency> REQUIRED)
-
 find_package(rclcpp REQUIRED)
+find_package(geometry_msgs REQUIRED)
+find_package(turtlesim REQUIRED)
 
 include_directories(include) # 包含include目录
 
-add_executable(person_node src/person_node.cpp)
-add_executable(test_auto src/test_auto.cpp)
-add_executable(learn_thread src/learn_thread.cpp)
+add_executable(turtle_circle src/turtle_circle.cpp)
+add_executable(turtle_control src/turtle_control.cpp)
 
-# 将rclcpp库链接到person_node目标
-ament_target_dependencies(person_node rclcpp)
-# 将可执行文件安装到项目的lib/<PROJECT_NAME>目录下
-install(TARGETS
-  person_node test_auto learn_thread
-  DESTINATION lib/${PROJECT_NAME}
-)
+# 将rclcpp库链接到目标
+ament_target_dependencies(turtle_circle rclcpp geometry_msgs)
+ament_target_dependencies(turtle_control rclcpp geometry_msgs turtlesim)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
@@ -38,5 +31,11 @@ if(BUILD_TESTING)
   set(ament_cmake_cpplint_FOUND TRUE)
   ament_lint_auto_find_test_dependencies()
 endif()
+
+# 将可执行文件安装到项目的lib/<PROJECT_NAME>目录下
+install(TARGETS
+  turtle_circle turtle_control
+  DESTINATION lib/${PROJECT_NAME}
+)
 
 ament_package()

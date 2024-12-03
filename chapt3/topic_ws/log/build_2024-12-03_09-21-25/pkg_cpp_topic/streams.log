@@ -1,0 +1,25 @@
+[0.014s] Invoking command in '/home/llw/git/ros2-study/chapt3/topic_ws/build/pkg_cpp_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/llw/git/ros2-study/chapt3/topic_ws/build/pkg_cpp_topic -- -j16 -l16
+[0.068s] [ 50%] [32mBuilding CXX object CMakeFiles/turtle_circle.dir/src/turtle_circle.cpp.o[0m
+[4.796s] [100%] [32m[1mLinking CXX executable turtle_circle[0m
+[5.033s] [100%] Built target turtle_circle
+[5.045s] Invoked command in '/home/llw/git/ros2-study/chapt3/topic_ws/build/pkg_cpp_topic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/llw/git/ros2-study/chapt3/topic_ws/build/pkg_cpp_topic -- -j16 -l16
+[5.055s] Invoking command in '/home/llw/git/ros2-study/chapt3/topic_ws/build/pkg_cpp_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/llw/git/ros2-study/chapt3/topic_ws/build/pkg_cpp_topic
+[5.062s] -- Install configuration: ""
+[5.062s] -- Installing: /home/llw/git/ros2-study/chapt3/topic_ws/install/pkg_cpp_topic/lib/pkg_cpp_topic/turtle_circle
+[5.064s] -- Set runtime path of "/home/llw/git/ros2-study/chapt3/topic_ws/install/pkg_cpp_topic/lib/pkg_cpp_topic/turtle_circle" to ""
+[5.064s] -- Up-to-date: /home/llw/git/ros2-study/chapt3/topic_ws/install/pkg_cpp_topic/share/ament_index/resource_index/package_run_dependencies/pkg_cpp_topic
+[5.064s] -- Up-to-date: /home/llw/git/ros2-study/chapt3/topic_ws/install/pkg_cpp_topic/share/ament_index/resource_index/parent_prefix_path/pkg_cpp_topic
+[5.064s] -- Up-to-date: /home/llw/git/ros2-study/chapt3/topic_ws/install/pkg_cpp_topic/share/pkg_cpp_topic/environment/ament_prefix_path.sh
+[5.064s] -- Installing: /home/llw/git/ros2-study/chapt3/topic_ws/install/pkg_cpp_topic/share/pkg_cpp_topic/environment/ament_prefix_path.dsv
+[5.064s] -- Up-to-date: /home/llw/git/ros2-study/chapt3/topic_ws/install/pkg_cpp_topic/share/pkg_cpp_topic/environment/path.sh
+[5.064s] -- Installing: /home/llw/git/ros2-study/chapt3/topic_ws/install/pkg_cpp_topic/share/pkg_cpp_topic/environment/path.dsv
+[5.064s] -- Up-to-date: /home/llw/git/ros2-study/chapt3/topic_ws/install/pkg_cpp_topic/share/pkg_cpp_topic/local_setup.bash
+[5.065s] -- Up-to-date: /home/llw/git/ros2-study/chapt3/topic_ws/install/pkg_cpp_topic/share/pkg_cpp_topic/local_setup.sh
+[5.065s] -- Up-to-date: /home/llw/git/ros2-study/chapt3/topic_ws/install/pkg_cpp_topic/share/pkg_cpp_topic/local_setup.zsh
+[5.065s] -- Installing: /home/llw/git/ros2-study/chapt3/topic_ws/install/pkg_cpp_topic/share/pkg_cpp_topic/local_setup.dsv
+[5.065s] -- Up-to-date: /home/llw/git/ros2-study/chapt3/topic_ws/install/pkg_cpp_topic/share/pkg_cpp_topic/package.dsv
+[5.065s] -- Up-to-date: /home/llw/git/ros2-study/chapt3/topic_ws/install/pkg_cpp_topic/share/ament_index/resource_index/packages/pkg_cpp_topic
+[5.065s] -- Up-to-date: /home/llw/git/ros2-study/chapt3/topic_ws/install/pkg_cpp_topic/share/pkg_cpp_topic/cmake/pkg_cpp_topicConfig.cmake
+[5.065s] -- Up-to-date: /home/llw/git/ros2-study/chapt3/topic_ws/install/pkg_cpp_topic/share/pkg_cpp_topic/cmake/pkg_cpp_topicConfig-version.cmake
+[5.065s] -- Up-to-date: /home/llw/git/ros2-study/chapt3/topic_ws/install/pkg_cpp_topic/share/pkg_cpp_topic/package.xml
+[5.066s] Invoked command in '/home/llw/git/ros2-study/chapt3/topic_ws/build/pkg_cpp_topic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/llw/git/ros2-study/chapt3/topic_ws/build/pkg_cpp_topic

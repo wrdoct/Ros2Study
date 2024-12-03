@@ -1,0 +1,21 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/turtle_circle.dir/src/turtle_circle.cpp.o[0m
+[100%] [32m[1mLinking CXX executable turtle_circle[0m
+[100%] Built target turtle_circle
+-- Install configuration: ""
+-- Installing: /home/llw/git/ros2-study/chapt3/topic_ws/install/pkg_cpp_topic/lib/pkg_cpp_topic/turtle_circle
+-- Set runtime path of "/home/llw/git/ros2-study/chapt3/topic_ws/install/pkg_cpp_topic/lib/pkg_cpp_topic/turtle_circle" to ""
+-- Up-to-date: /home/llw/git/ros2-study/chapt3/topic_ws/install/pkg_cpp_topic/share/ament_index/resource_index/package_run_dependencies/pkg_cpp_topic
+-- Up-to-date: /home/llw/git/ros2-study/chapt3/topic_ws/install/pkg_cpp_topic/share/ament_index/resource_index/parent_prefix_path/pkg_cpp_topic
+-- Up-to-date: /home/llw/git/ros2-study/chapt3/topic_ws/install/pkg_cpp_topic/share/pkg_cpp_topic/environment/ament_prefix_path.sh
+-- Installing: /home/llw/git/ros2-study/chapt3/topic_ws/install/pkg_cpp_topic/share/pkg_cpp_topic/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/llw/git/ros2-study/chapt3/topic_ws/install/pkg_cpp_topic/share/pkg_cpp_topic/environment/path.sh
+-- Installing: /home/llw/git/ros2-study/chapt3/topic_ws/install/pkg_cpp_topic/share/pkg_cpp_topic/environment/path.dsv
+-- Up-to-date: /home/llw/git/ros2-study/chapt3/topic_ws/install/pkg_cpp_topic/share/pkg_cpp_topic/local_setup.bash
+-- Up-to-date: /home/llw/git/ros2-study/chapt3/topic_ws/install/pkg_cpp_topic/share/pkg_cpp_topic/local_setup.sh
+-- Up-to-date: /home/llw/git/ros2-study/chapt3/topic_ws/install/pkg_cpp_topic/share/pkg_cpp_topic/local_setup.zsh
+-- Installing: /home/llw/git/ros2-study/chapt3/topic_ws/install/pkg_cpp_topic/share/pkg_cpp_topic/local_setup.dsv
+-- Up-to-date: /home/llw/git/ros2-study/chapt3/topic_ws/install/pkg_cpp_topic/share/pkg_cpp_topic/package.dsv
+-- Up-to-date: /home/llw/git/ros2-study/chapt3/topic_ws/install/pkg_cpp_topic/share/ament_index/resource_index/packages/pkg_cpp_topic
+-- Up-to-date: /home/llw/git/ros2-study/chapt3/topic_ws/install/pkg_cpp_topic/share/pkg_cpp_topic/cmake/pkg_cpp_topicConfig.cmake
+-- Up-to-date: /home/llw/git/ros2-study/chapt3/topic_ws/install/pkg_cpp_topic/share/pkg_cpp_topic/cmake/pkg_cpp_topicConfig-version.cmake
+-- Up-to-date: /home/llw/git/ros2-study/chapt3/topic_ws/install/pkg_cpp_topic/share/pkg_cpp_topic/package.xml

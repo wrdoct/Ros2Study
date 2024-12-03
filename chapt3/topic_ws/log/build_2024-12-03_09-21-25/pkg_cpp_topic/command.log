@@ -1,0 +1,4 @@
+Invoking command in '/home/llw/git/ros2-study/chapt3/topic_ws/build/pkg_cpp_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/llw/git/ros2-study/chapt3/topic_ws/build/pkg_cpp_topic -- -j16 -l16
+Invoked command in '/home/llw/git/ros2-study/chapt3/topic_ws/build/pkg_cpp_topic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/llw/git/ros2-study/chapt3/topic_ws/build/pkg_cpp_topic -- -j16 -l16
+Invoking command in '/home/llw/git/ros2-study/chapt3/topic_ws/build/pkg_cpp_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/llw/git/ros2-study/chapt3/topic_ws/build/pkg_cpp_topic
+Invoked command in '/home/llw/git/ros2-study/chapt3/topic_ws/build/pkg_cpp_topic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/llw/git/ros2-study/chapt3/topic_ws/build/pkg_cpp_topic

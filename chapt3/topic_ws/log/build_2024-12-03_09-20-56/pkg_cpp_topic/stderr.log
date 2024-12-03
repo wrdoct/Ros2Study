@@ -1,0 +1,7 @@
+[01m[K/home/llw/git/ros2-study/chapt3/topic_ws/src/pkg_cpp_topic/src/turtle_circle.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kturtlesim/msg/pose.hpp: No such file or directory
+    3 | #include [01;31m[K"turtlesim/msg/pose.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/turtle_circle.dir/build.make:76: CMakeFiles/turtle_circle.dir/src/turtle_circle.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/turtle_circle.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
