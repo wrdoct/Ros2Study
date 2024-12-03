@@ -1,0 +1,26 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/opt/ros/humble/include",
+                "/opt/ros/humble/include/rclcpp",
+                "/opt/ros/humble/include/rcl",
+                "/opt/ros/humble/include/rmw",
+                "/opt/ros/humble/include/rosidl_runtime_c",
+                "/opt/ros/humble/include/rosidl_runtime_cpp",
+                "/opt/ros/humble/include/rosidl_typesupport_interface",
+                "/opt/ros/humble/include/rosidl_typesupport_c",
+                "/opt/ros/humble/include/builtin_interfaces",
+                "/opt/ros/humble/include/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}

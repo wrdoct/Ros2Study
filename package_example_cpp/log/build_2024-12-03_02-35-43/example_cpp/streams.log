@@ -1,0 +1,46 @@
+[0.013s] Invoking command in '/home/llw/git/ros2-study/package_example_cpp/build/example_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/llw/git/ros2-study/package_example_cpp/build/example_cpp -- -j16 -l16
+[0.039s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.169s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.199s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.201s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.208s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.219s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.233s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.268s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.270s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.367s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.421s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.497s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.497s] -- Configured cppcheck include dirs: 
+[0.497s] -- Configured cppcheck exclude dirs and/or files: 
+[0.498s] -- Added test 'lint_cmake' to check CMake code style
+[0.499s] -- Added test 'uncrustify' to check C / C++ code style
+[0.499s] -- Configured uncrustify additional arguments: 
+[0.499s] -- Added test 'xmllint' to check XML markup files
+[0.501s] -- Configuring done
+[0.511s] -- Generating done
+[0.514s] -- Build files have been written to: /home/llw/git/ros2-study/package_example_cpp/build/example_cpp
+[0.555s] [ 50%] [32mBuilding CXX object CMakeFiles/node_03.dir/src/node_03.cpp.o[0m
+[3.663s] [100%] [32m[1mLinking CXX executable node_03[0m
+[3.788s] [100%] Built target node_03
+[3.801s] Invoked command in '/home/llw/git/ros2-study/package_example_cpp/build/example_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/llw/git/ros2-study/package_example_cpp/build/example_cpp -- -j16 -l16
+[3.812s] Invoking command in '/home/llw/git/ros2-study/package_example_cpp/build/example_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/llw/git/ros2-study/package_example_cpp/build/example_cpp
+[3.819s] -- Install configuration: ""
+[3.819s] -- Up-to-date: /home/llw/git/ros2-study/package_example_cpp/install/example_cpp/share/ament_index/resource_index/package_run_dependencies/example_cpp
+[3.819s] -- Up-to-date: /home/llw/git/ros2-study/package_example_cpp/install/example_cpp/share/ament_index/resource_index/parent_prefix_path/example_cpp
+[3.819s] -- Up-to-date: /home/llw/git/ros2-study/package_example_cpp/install/example_cpp/share/example_cpp/environment/ament_prefix_path.sh
+[3.819s] -- Installing: /home/llw/git/ros2-study/package_example_cpp/install/example_cpp/share/example_cpp/environment/ament_prefix_path.dsv
+[3.819s] -- Up-to-date: /home/llw/git/ros2-study/package_example_cpp/install/example_cpp/share/example_cpp/environment/path.sh
+[3.820s] -- Installing: /home/llw/git/ros2-study/package_example_cpp/install/example_cpp/share/example_cpp/environment/path.dsv
+[3.820s] -- Up-to-date: /home/llw/git/ros2-study/package_example_cpp/install/example_cpp/share/example_cpp/local_setup.bash
+[3.820s] -- Up-to-date: /home/llw/git/ros2-study/package_example_cpp/install/example_cpp/share/example_cpp/local_setup.sh
+[3.820s] -- Up-to-date: /home/llw/git/ros2-study/package_example_cpp/install/example_cpp/share/example_cpp/local_setup.zsh
+[3.820s] -- Installing: /home/llw/git/ros2-study/package_example_cpp/install/example_cpp/share/example_cpp/local_setup.dsv
+[3.820s] -- Installing: /home/llw/git/ros2-study/package_example_cpp/install/example_cpp/share/example_cpp/package.dsv
+[3.820s] -- Up-to-date: /home/llw/git/ros2-study/package_example_cpp/install/example_cpp/share/ament_index/resource_index/packages/example_cpp
+[3.820s] -- Up-to-date: /home/llw/git/ros2-study/package_example_cpp/install/example_cpp/share/example_cpp/cmake/example_cppConfig.cmake
+[3.821s] -- Up-to-date: /home/llw/git/ros2-study/package_example_cpp/install/example_cpp/share/example_cpp/cmake/example_cppConfig-version.cmake
+[3.821s] -- Up-to-date: /home/llw/git/ros2-study/package_example_cpp/install/example_cpp/share/example_cpp/package.xml
+[3.821s] -- Installing: /home/llw/git/ros2-study/package_example_cpp/install/example_cpp/lib/example_cpp/node_03
+[3.821s] -- Set runtime path of "/home/llw/git/ros2-study/package_example_cpp/install/example_cpp/lib/example_cpp/node_03" to ""
+[3.823s] Invoked command in '/home/llw/git/ros2-study/package_example_cpp/build/example_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/llw/git/ros2-study/package_example_cpp/build/example_cpp
