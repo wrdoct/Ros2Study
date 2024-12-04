@@ -1,3 +1,6 @@
+wget http://fishros.com/install -O fishros && . fishros
+选择humble版本的ROS2即可
+
 ```
 mkdir src
 cd src/
