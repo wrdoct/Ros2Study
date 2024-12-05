@@ -19,6 +19,7 @@ find_package(rosidl_default_generators REQUIRED)
 
 set(srv_files
   "srv/FaceDetector.srv"
+  "srv/Partol.srv"
 )
 
 # 生成接口 -- cmake函数，来自依赖 rosidl_default_generators 用于将msg等消息接口定义文件转换成库或者头文件夹

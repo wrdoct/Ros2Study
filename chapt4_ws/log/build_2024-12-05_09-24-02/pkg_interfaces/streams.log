@@ -1,0 +1,224 @@
+[0.013s] Invoking command in '/home/llw/git/ros2-study/chapt4_ws/build/pkg_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/llw/git/ros2-study/chapt4_ws/src/pkg_interfaces -DCMAKE_INSTALL_PREFIX=/home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces
+[0.026s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.168s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.176s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.201s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.203s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.210s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.220s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.234s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.295s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.626s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.158s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.367s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.391s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.415s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.415s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.415s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.478s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.490s] -- Added test 'lint_cmake' to check CMake code style
+[1.491s] -- Added test 'xmllint' to check XML markup files
+[1.494s] -- Configuring done
+[1.538s] -- Generating done
+[1.553s] -- Build files have been written to: /home/llw/git/ros2-study/chapt4_ws/build/pkg_interfaces
+[1.562s] Invoked command in '/home/llw/git/ros2-study/chapt4_ws/build/pkg_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/llw/git/ros2-study/chapt4_ws/src/pkg_interfaces -DCMAKE_INSTALL_PREFIX=/home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces
+[1.564s] Invoking command in '/home/llw/git/ros2-study/chapt4_ws/build/pkg_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/llw/git/ros2-study/chapt4_ws/build/pkg_interfaces -- -j16 -l16
+[1.609s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.621s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.629s] [  5%] Built target ament_cmake_python_symlink_pkg_interfaces
+[1.873s] running egg_info
+[1.874s] writing pkg_interfaces.egg-info/PKG-INFO
+[1.874s] writing dependency_links to pkg_interfaces.egg-info/dependency_links.txt
+[1.874s] writing top-level names to pkg_interfaces.egg-info/top_level.txt
+[1.877s] reading manifest file 'pkg_interfaces.egg-info/SOURCES.txt'
+[1.877s] writing manifest file 'pkg_interfaces.egg-info/SOURCES.txt'
+[1.907s] [  5%] Built target ament_cmake_python_build_pkg_interfaces_egg
+[2.063s] [  5%] Built target pkg_interfaces__cpp
+[2.075s] [  7%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.076s] [ 10%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.077s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.079s] [35m[1mConsolidate compiler generated dependencies of target pkg_interfaces__rosidl_generator_c[0m
+[2.093s] [ 15%] [32mBuilding C object CMakeFiles/pkg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg_interfaces/srv/detail/face_detector__functions.c.o[0m
+[2.093s] [ 17%] [32mBuilding C object CMakeFiles/pkg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg_interfaces/srv/detail/partol__functions.c.o[0m
+[2.172s] [ 20%] [32m[1mLinking C shared library libpkg_interfaces__rosidl_generator_c.so[0m
+[2.218s] [ 20%] Built target pkg_interfaces__rosidl_generator_c
+[2.231s] [ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.231s] [ 28%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.231s] [ 28%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.458s] [35m[1mConsolidate compiler generated dependencies of target pkg_interfaces__rosidl_typesupport_cpp[0m
+[2.474s] [ 30%] [32mBuilding CXX object CMakeFiles/pkg_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/pkg_interfaces/srv/face_detector__type_support.cpp.o[0m
+[2.474s] [ 33%] [32mBuilding CXX object CMakeFiles/pkg_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/pkg_interfaces/srv/partol__type_support.cpp.o[0m
+[2.494s] [35m[1mConsolidate compiler generated dependencies of target pkg_interfaces__rosidl_typesupport_introspection_cpp[0m
+[2.501s] [35m[1mConsolidate compiler generated dependencies of target pkg_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[2.509s] [ 35%] [32mBuilding CXX object CMakeFiles/pkg_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/pkg_interfaces/srv/detail/face_detector__type_support.cpp.o[0m
+[2.509s] [ 38%] [32mBuilding CXX object CMakeFiles/pkg_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/pkg_interfaces/srv/detail/partol__type_support.cpp.o[0m
+[2.518s] [ 41%] [32mBuilding CXX object CMakeFiles/pkg_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pkg_interfaces/srv/detail/dds_fastrtps/face_detector__type_support.cpp.o[0m
+[2.518s] [ 43%] [32mBuilding CXX object CMakeFiles/pkg_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pkg_interfaces/srv/detail/dds_fastrtps/partol__type_support.cpp.o[0m
+[2.615s] [35m[1mConsolidate compiler generated dependencies of target pkg_interfaces__rosidl_typesupport_c[0m
+[2.630s] [ 46%] [32mBuilding CXX object CMakeFiles/pkg_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/pkg_interfaces/srv/face_detector__type_support.cpp.o[0m
+[2.633s] [ 48%] [32mBuilding CXX object CMakeFiles/pkg_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/pkg_interfaces/srv/partol__type_support.cpp.o[0m
+[2.676s] [35m[1mConsolidate compiler generated dependencies of target pkg_interfaces__rosidl_typesupport_fastrtps_c[0m
+[2.689s] [ 51%] [32m[1mLinking CXX shared library libpkg_interfaces__rosidl_typesupport_c.so[0m
+[2.693s] [ 53%] [32mBuilding CXX object CMakeFiles/pkg_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/pkg_interfaces/srv/detail/partol__type_support_c.cpp.o[0m
+[2.693s] [ 56%] [32mBuilding CXX object CMakeFiles/pkg_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/pkg_interfaces/srv/detail/face_detector__type_support_c.cpp.o[0m
+[2.758s] [35m[1mConsolidate compiler generated dependencies of target pkg_interfaces__rosidl_typesupport_introspection_c[0m
+[2.767s] [ 56%] Built target pkg_interfaces__rosidl_typesupport_c
+[2.777s] [ 61%] [32mBuilding C object CMakeFiles/pkg_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pkg_interfaces/srv/detail/face_detector__type_support.c.o[0m
+[2.777s] [ 61%] [32mBuilding C object CMakeFiles/pkg_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pkg_interfaces/srv/detail/partol__type_support.c.o[0m
+[2.808s] [ 64%] [32m[1mLinking CXX shared library libpkg_interfaces__rosidl_typesupport_cpp.so[0m
+[2.840s] [ 66%] [32m[1mLinking C shared library libpkg_interfaces__rosidl_typesupport_introspection_c.so[0m
+[2.860s] [ 66%] Built target pkg_interfaces__rosidl_typesupport_cpp
+[2.881s] [ 66%] Built target pkg_interfaces__rosidl_typesupport_introspection_c
+[3.052s] [ 69%] [32m[1mLinking CXX shared library libpkg_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.078s] [ 71%] [32m[1mLinking CXX shared library libpkg_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[3.107s] [ 74%] [32m[1mLinking CXX shared library libpkg_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[3.147s] [ 74%] Built target pkg_interfaces__rosidl_typesupport_fastrtps_cpp
+[3.171s] [ 74%] Built target pkg_interfaces__rosidl_typesupport_introspection_cpp
+[3.201s] [ 74%] Built target pkg_interfaces__rosidl_typesupport_fastrtps_c
+[3.225s] [ 74%] Built target pkg_interfaces
+[3.248s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.943s] [ 76%] Built target pkg_interfaces__py
+[3.954s] [35m[1mConsolidate compiler generated dependencies of target pkg_interfaces__rosidl_generator_py[0m
+[3.969s] [ 79%] [32mBuilding C object CMakeFiles/pkg_interfaces__rosidl_generator_py.dir/rosidl_generator_py/pkg_interfaces/srv/_face_detector_s.c.o[0m
+[3.969s] [ 82%] [32mBuilding C object CMakeFiles/pkg_interfaces__rosidl_generator_py.dir/rosidl_generator_py/pkg_interfaces/srv/_partol_s.c.o[0m
+[4.118s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/pkg_interfaces/libpkg_interfaces__rosidl_generator_py.so[0m
+[4.168s] [ 84%] Built target pkg_interfaces__rosidl_generator_py
+[4.180s] [35m[1mConsolidate compiler generated dependencies of target pkg_interfaces__rosidl_typesupport_c__pyext[0m
+[4.180s] [35m[1mConsolidate compiler generated dependencies of target pkg_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[4.181s] [35m[1mConsolidate compiler generated dependencies of target pkg_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[4.196s] [ 87%] [32mBuilding C object CMakeFiles/pkg_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/pkg_interfaces/_pkg_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[4.196s] [ 92%] [32mBuilding C object CMakeFiles/pkg_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/pkg_interfaces/_pkg_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.196s] [ 92%] [32mBuilding C object CMakeFiles/pkg_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/pkg_interfaces/_pkg_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.330s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/pkg_interfaces/pkg_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.330s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/pkg_interfaces/pkg_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.330s] [100%] [32m[1mLinking C shared library rosidl_generator_py/pkg_interfaces/pkg_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.381s] [100%] Built target pkg_interfaces__rosidl_typesupport_c__pyext
+[4.381s] [100%] Built target pkg_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[4.381s] [100%] Built target pkg_interfaces__rosidl_typesupport_introspection_c__pyext
+[4.395s] Invoked command in '/home/llw/git/ros2-study/chapt4_ws/build/pkg_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/llw/git/ros2-study/chapt4_ws/build/pkg_interfaces -- -j16 -l16
+[4.405s] Invoking command in '/home/llw/git/ros2-study/chapt4_ws/build/pkg_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/llw/git/ros2-study/chapt4_ws/build/pkg_interfaces
+[4.413s] -- Install configuration: ""
+[4.413s] -- Execute custom install script
+[4.414s] -- Up-to-date symlink: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/share/ament_index/resource_index/rosidl_interfaces/pkg_interfaces
+[4.414s] -- Up-to-date symlink: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg/rosidl_generator_c__visibility_control.h
+[4.414s] -- Up-to-date symlink: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/detail/face_detector__functions.h
+[4.414s] -- Up-to-date symlink: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/detail/face_detector__struct.h
+[4.414s] -- Up-to-date symlink: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/detail/face_detector__type_support.h
+[4.415s] -- Symlinking: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/detail/partol__functions.h
+[4.424s] -- Symlinking: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/detail/partol__struct.h
+[4.433s] -- Symlinking: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/detail/partol__type_support.h
+[4.442s] -- Up-to-date symlink: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/face_detector.h
+[4.442s] -- Symlinking: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/partol.h
+[4.450s] -- Up-to-date symlink: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/share/pkg_interfaces/environment/library_path.sh
+[4.451s] -- Up-to-date symlink: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/share/pkg_interfaces/environment/library_path.dsv
+[4.451s] -- Up-to-date symlink: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.451s] -- Up-to-date symlink: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/detail/face_detector__rosidl_typesupport_fastrtps_c.h
+[4.451s] -- Symlinking: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/detail/partol__rosidl_typesupport_fastrtps_c.h
+[4.460s] -- Up-to-date symlink: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/detail/face_detector__builder.hpp
+[4.460s] -- Up-to-date symlink: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/detail/face_detector__struct.hpp
+[4.460s] -- Up-to-date symlink: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/detail/face_detector__traits.hpp
+[4.460s] -- Symlinking: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/detail/partol__builder.hpp
+[4.469s] -- Symlinking: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/detail/partol__struct.hpp
+[4.477s] -- Symlinking: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/detail/partol__traits.hpp
+[4.485s] -- Up-to-date symlink: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/face_detector.hpp
+[4.485s] -- Symlinking: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/partol.hpp
+[4.495s] -- Up-to-date symlink: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.495s] -- Up-to-date symlink: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/detail/face_detector__rosidl_typesupport_fastrtps_cpp.hpp
+[4.495s] -- Symlinking: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/detail/partol__rosidl_typesupport_fastrtps_cpp.hpp
+[4.503s] -- Up-to-date symlink: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.504s] -- Up-to-date symlink: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/detail/face_detector__rosidl_typesupport_introspection_c.h
+[4.504s] -- Symlinking: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/detail/partol__rosidl_typesupport_introspection_c.h
+[4.512s] -- Up-to-date symlink: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/detail/face_detector__rosidl_typesupport_introspection_cpp.hpp
+[4.512s] -- Symlinking: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/detail/partol__rosidl_typesupport_introspection_cpp.hpp
+[4.521s] -- Up-to-date symlink: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/share/pkg_interfaces/environment/pythonpath.sh
+[4.521s] -- Up-to-date symlink: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/share/pkg_interfaces/environment/pythonpath.dsv
+[4.521s] -- Up-to-date symlink: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[4.522s] -- Up-to-date symlink: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.522s] -- Up-to-date symlink: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[4.522s] -- Up-to-date symlink: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[4.523s] -- Up-to-date symlink: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/__init__.py
+[4.523s] -- Up-to-date symlink: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/_pkg_interfaces_s.ep.rosidl_typesupport_c.c
+[4.523s] -- Up-to-date symlink: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/_pkg_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.523s] -- Up-to-date symlink: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/_pkg_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[4.523s] -- Up-to-date symlink: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/libpkg_interfaces__rosidl_generator_py.so
+[4.523s] -- Up-to-date symlink: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/pkg_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.523s] -- Up-to-date symlink: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/pkg_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.524s] -- Up-to-date symlink: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/pkg_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.524s] -- Up-to-date symlink: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/srv/__init__.py
+[4.524s] -- Up-to-date symlink: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/srv/_face_detector.py
+[4.524s] -- Up-to-date symlink: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/srv/_face_detector_s.c
+[4.524s] -- Symlinking: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/srv/_partol.py
+[4.533s] -- Symlinking: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/srv/_partol_s.c
+[4.542s] -- Up-to-date symlink: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/pkg_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.542s] -- Up-to-date symlink: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/pkg_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.542s] -- Up-to-date symlink: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/pkg_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.543s] -- Up-to-date symlink: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/share/pkg_interfaces/srv/FaceDetector.idl
+[4.543s] -- Symlinking: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/share/pkg_interfaces/srv/Partol.idl
+[4.551s] -- Up-to-date symlink: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/share/pkg_interfaces/srv/FaceDetector.srv
+[4.551s] -- Up-to-date symlink: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/share/pkg_interfaces/srv/FaceDetector_Request.msg
+[4.552s] -- Up-to-date symlink: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/share/pkg_interfaces/srv/FaceDetector_Response.msg
+[4.552s] -- Symlinking: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/share/pkg_interfaces/srv/Partol.srv
+[4.561s] -- Symlinking: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/share/pkg_interfaces/srv/Partol_Request.msg
+[4.570s] -- Symlinking: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/share/pkg_interfaces/srv/Partol_Response.msg
+[4.578s] -- Up-to-date symlink: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/share/ament_index/resource_index/package_run_dependencies/pkg_interfaces
+[4.578s] -- Up-to-date symlink: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/share/ament_index/resource_index/parent_prefix_path/pkg_interfaces
+[4.578s] -- Up-to-date symlink: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/share/pkg_interfaces/environment/ament_prefix_path.sh
+[4.579s] -- Up-to-date symlink: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/share/pkg_interfaces/environment/ament_prefix_path.dsv
+[4.579s] -- Up-to-date symlink: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/share/pkg_interfaces/environment/path.sh
+[4.579s] -- Up-to-date symlink: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/share/pkg_interfaces/environment/path.dsv
+[4.579s] -- Up-to-date symlink: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/share/pkg_interfaces/local_setup.bash
+[4.579s] -- Up-to-date symlink: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/share/pkg_interfaces/local_setup.sh
+[4.580s] -- Up-to-date symlink: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/share/pkg_interfaces/local_setup.zsh
+[4.580s] -- Up-to-date symlink: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/share/pkg_interfaces/local_setup.dsv
+[4.580s] -- Symlinking: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/share/pkg_interfaces/package.dsv
+[4.588s] -- Up-to-date symlink: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/share/ament_index/resource_index/packages/pkg_interfaces
+[4.589s] -- Up-to-date symlink: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/share/pkg_interfaces/cmake/rosidl_cmake-extras.cmake
+[4.589s] -- Up-to-date symlink: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/share/pkg_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.589s] -- Up-to-date symlink: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/share/pkg_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.589s] -- Up-to-date symlink: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/share/pkg_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[4.589s] -- Up-to-date symlink: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/share/pkg_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[4.589s] -- Up-to-date symlink: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/share/pkg_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.590s] -- Up-to-date symlink: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/share/pkg_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.590s] -- Up-to-date symlink: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/share/pkg_interfaces/cmake/pkg_interfacesConfig.cmake
+[4.590s] -- Up-to-date symlink: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/share/pkg_interfaces/cmake/pkg_interfacesConfig-version.cmake
+[4.590s] -- Up-to-date symlink: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/share/pkg_interfaces/package.xml
+[4.590s] -- Installing: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/lib/libpkg_interfaces__rosidl_generator_c.so
+[4.591s] -- Set runtime path of "/home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/lib/libpkg_interfaces__rosidl_generator_c.so" to ""
+[4.591s] -- Installing: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/lib/libpkg_interfaces__rosidl_typesupport_fastrtps_c.so
+[4.592s] -- Set runtime path of "/home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/lib/libpkg_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[4.592s] -- Installing: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/lib/libpkg_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[4.593s] -- Set runtime path of "/home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/lib/libpkg_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.593s] -- Installing: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/lib/libpkg_interfaces__rosidl_typesupport_introspection_c.so
+[4.594s] -- Set runtime path of "/home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/lib/libpkg_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[4.594s] -- Installing: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/lib/libpkg_interfaces__rosidl_typesupport_c.so
+[4.594s] -- Set runtime path of "/home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/lib/libpkg_interfaces__rosidl_typesupport_c.so" to ""
+[4.595s] -- Installing: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/lib/libpkg_interfaces__rosidl_typesupport_introspection_cpp.so
+[4.595s] -- Set runtime path of "/home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/lib/libpkg_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[4.596s] -- Installing: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/lib/libpkg_interfaces__rosidl_typesupport_cpp.so
+[4.596s] -- Set runtime path of "/home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/lib/libpkg_interfaces__rosidl_typesupport_cpp.so" to ""
+[4.636s] Listing '/home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces'...
+[4.636s] Compiling '/home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/__init__.py'...
+[4.636s] Listing '/home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/srv'...
+[4.637s] Compiling '/home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/srv/__init__.py'...
+[4.637s] Compiling '/home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/srv/_face_detector.py'...
+[4.637s] Compiling '/home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/srv/_partol.py'...
+[4.642s] -- Installing: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/lib/libpkg_interfaces__rosidl_generator_py.so
+[4.642s] -- Set runtime path of "/home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/lib/libpkg_interfaces__rosidl_generator_py.so" to ""
+[4.642s] -- Up-to-date: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/share/pkg_interfaces/cmake/export_pkg_interfaces__rosidl_generator_cExport.cmake
+[4.642s] -- Up-to-date: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/share/pkg_interfaces/cmake/export_pkg_interfaces__rosidl_generator_cExport-noconfig.cmake
+[4.642s] -- Up-to-date: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/share/pkg_interfaces/cmake/export_pkg_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[4.643s] -- Up-to-date: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/share/pkg_interfaces/cmake/export_pkg_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.643s] -- Up-to-date: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/share/pkg_interfaces/cmake/export_pkg_interfaces__rosidl_generator_cppExport.cmake
+[4.643s] -- Up-to-date: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/share/pkg_interfaces/cmake/export_pkg_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.643s] -- Up-to-date: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/share/pkg_interfaces/cmake/export_pkg_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.643s] -- Up-to-date: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/share/pkg_interfaces/cmake/pkg_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[4.643s] -- Up-to-date: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/share/pkg_interfaces/cmake/pkg_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.643s] -- Up-to-date: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/share/pkg_interfaces/cmake/pkg_interfaces__rosidl_typesupport_cExport.cmake
+[4.643s] -- Up-to-date: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/share/pkg_interfaces/cmake/pkg_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[4.643s] -- Up-to-date: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/share/pkg_interfaces/cmake/pkg_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[4.643s] -- Up-to-date: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/share/pkg_interfaces/cmake/pkg_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.643s] -- Up-to-date: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/share/pkg_interfaces/cmake/pkg_interfaces__rosidl_typesupport_cppExport.cmake
+[4.644s] -- Up-to-date: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/share/pkg_interfaces/cmake/pkg_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[4.644s] -- Up-to-date: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/share/pkg_interfaces/cmake/export_pkg_interfaces__rosidl_generator_pyExport.cmake
+[4.644s] -- Up-to-date: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/share/pkg_interfaces/cmake/export_pkg_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[4.646s] Invoked command in '/home/llw/git/ros2-study/chapt4_ws/build/pkg_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/llw/git/ros2-study/chapt4_ws/build/pkg_interfaces
