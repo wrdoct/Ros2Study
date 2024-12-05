@@ -1,0 +1,1 @@
+/home/llw/git/ros2-study/chapt4_ws/build/pkg_interfaces/ament_cmake_python/pkg_interfaces/pkg_interfaces.egg-info/dependency_links.txt

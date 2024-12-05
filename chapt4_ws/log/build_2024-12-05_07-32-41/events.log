@@ -1,0 +1,228 @@
+[0.000000] (-) TimerEvent: {}
+[0.000464] (pkg_interfaces) JobQueued: {'identifier': 'pkg_interfaces', 'dependencies': OrderedDict()}
+[0.000505] (pkg_interfaces) JobStarted: {'identifier': 'pkg_interfaces'}
+[0.010040] (pkg_interfaces) JobProgress: {'identifier': 'pkg_interfaces', 'progress': 'cmake'}
+[0.010605] (pkg_interfaces) JobProgress: {'identifier': 'pkg_interfaces', 'progress': 'build'}
+[0.011293] (pkg_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/llw/git/ros2-study/chapt4_ws/build/pkg_interfaces', '--', '-j16', '-l16'], 'cwd': '/home/llw/git/ros2-study/chapt4_ws/build/pkg_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'llw'), ('SSH_CLIENT', '192.168.31.104 1413 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/llw/.vscode-server/cli/servers/Stable-912bb683695358a54ae0c670461738984cbb5b95/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/llw/.vscode-server/cli/servers/Stable-912bb683695358a54ae0c670461738984cbb5b95/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/llw'), ('OLDPWD', '/home/llw/git/ros2-study/chapt4_ws/src'), ('TERM_PROGRAM_VERSION', '1.95.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-fc8d9d11-a567-4964-9ba2-a9e2c241c9a3.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/llw/.vscode-server/cli/servers/Stable-912bb683695358a54ae0c670461738984cbb5b95/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/llw/.vscode-server/cli/servers/Stable-912bb683695358a54ae0c670461738984cbb5b95/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/llw/git/ros2-study/chapt3/topic_ws/install:/home/llw/git/ros2-study/chapt2/chapt3_ws/install:/home/llw/git/ros2-study/chapt2/chapt2_ws/install:/home/llw/git/ros2-study/package_example_cpp/install:/home/llw/git/ros2-study/chapt2/install:/home/llw/git/ros2-study/package_example_cpp/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'llw'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', ':/usr/local/lib/pkgconfig:/usr/local/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/llw/.vscode-server/cli/servers/Stable-912bb683695358a54ae0c670461738984cbb5b95/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('DISPLAY', '192.168.31.104:0.0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-95c1c7973e.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/llw/git/ros2-study/chapt3/topic_ws/install/pkg_cpp_topic:/home/llw/git/ros2-study/chapt2/chapt3_ws/install/pkg_cpp:/home/llw/git/ros2-study/chapt2/chapt2_ws/install/demo_cpp_pkg:/home/llw/git/ros2-study/chapt2/install/demo_cpp_pkg:/home/llw/git/ros2-study/package_example_cpp/src/install/example_cpp:/home/llw/git/ros2-study/package_example_cpp/install/example_cpp:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/llw/git/ros2-study/chapt4_ws/build/pkg_interfaces'), ('SSH_CONNECTION', '192.168.31.104 1413 192.168.31.100 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/llw/git/ros2-study/chapt3/topic_ws/install/pkg_cpp_topic:/home/llw/git/ros2-study/chapt2/chapt3_ws/install/pkg_cpp:/home/llw/git/ros2-study/chapt2/chapt2_ws/install/demo_cpp_pkg:/home/llw/git/ros2-study/chapt2/install/demo_cpp_pkg:/home/llw/git/ros2-study/package_example_cpp/src/install/example_cpp:/home/llw/git/ros2-study/package_example_cpp/install/example_cpp:/opt/ros/humble')]), 'shell': False}
+[0.039966] (pkg_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099555] (-) TimerEvent: {}
+[0.168655] (pkg_interfaces) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.177269] (pkg_interfaces) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.199652] (-) TimerEvent: {}
+[0.202655] (pkg_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.205584] (pkg_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.212260] (pkg_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.223683] (pkg_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.239069] (pkg_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.299744] (-) TimerEvent: {}
+[0.301010] (pkg_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.399856] (-) TimerEvent: {}
+[0.500211] (-) TimerEvent: {}
+[0.600511] (-) TimerEvent: {}
+[0.628210] (pkg_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.700626] (-) TimerEvent: {}
+[0.800933] (-) TimerEvent: {}
+[0.901224] (-) TimerEvent: {}
+[1.001523] (-) TimerEvent: {}
+[1.101822] (-) TimerEvent: {}
+[1.157710] (pkg_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.201954] (-) TimerEvent: {}
+[1.302239] (-) TimerEvent: {}
+[1.368015] (pkg_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.391318] (pkg_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.402312] (-) TimerEvent: {}
+[1.414336] (pkg_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.414484] (pkg_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.414549] (pkg_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.481488] (pkg_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.493086] (pkg_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.493983] (pkg_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.497051] (pkg_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.502393] (-) TimerEvent: {}
+[1.540806] (pkg_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[1.554636] (pkg_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/llw/git/ros2-study/chapt4_ws/build/pkg_interfaces\n'}
+[1.595676] (pkg_interfaces) StdoutLine: {'line': b'[  3%] Built target pkg_interfaces__cpp\n'}
+[1.596158] (pkg_interfaces) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/pkg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg_interfaces/srv/detail/face_detector__functions.c.o\x1b[0m\n'}
+[1.602512] (-) TimerEvent: {}
+[1.603210] (pkg_interfaces) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_symlink_pkg_interfaces\n'}
+[1.619061] (pkg_interfaces) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object CMakeFiles/pkg_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/pkg_interfaces/srv/face_detector__type_support.cpp.o\x1b[0m\n'}
+[1.619305] (pkg_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/pkg_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pkg_interfaces/srv/detail/dds_fastrtps/face_detector__type_support.cpp.o\x1b[0m\n'}
+[1.619434] (pkg_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/pkg_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/pkg_interfaces/srv/detail/face_detector__type_support.cpp.o\x1b[0m\n'}
+[1.669363] (pkg_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[32m\x1b[1mLinking C shared library libpkg_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[1.702640] (-) TimerEvent: {}
+[1.713270] (pkg_interfaces) StdoutLine: {'line': b'[ 22%] Built target pkg_interfaces__rosidl_generator_c\n'}
+[1.725539] (pkg_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.725837] (pkg_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.726063] (pkg_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.802765] (-) TimerEvent: {}
+[1.846242] (pkg_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[1.846994] (pkg_interfaces) StdoutLine: {'line': b'writing pkg_interfaces.egg-info/PKG-INFO\n'}
+[1.847286] (pkg_interfaces) StdoutLine: {'line': b'writing dependency_links to pkg_interfaces.egg-info/dependency_links.txt\n'}
+[1.847482] (pkg_interfaces) StdoutLine: {'line': b'writing top-level names to pkg_interfaces.egg-info/top_level.txt\n'}
+[1.849604] (pkg_interfaces) StdoutLine: {'line': b"reading manifest file 'pkg_interfaces.egg-info/SOURCES.txt'\n"}
+[1.850174] (pkg_interfaces) StdoutLine: {'line': b"writing manifest file 'pkg_interfaces.egg-info/SOURCES.txt'\n"}
+[1.883491] (pkg_interfaces) StdoutLine: {'line': b'[ 32%] Built target ament_cmake_python_build_pkg_interfaces_egg\n'}
+[1.902900] (-) TimerEvent: {}
+[1.922126] (pkg_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32m\x1b[1mLinking CXX shared library libpkg_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[1.974370] (pkg_interfaces) StdoutLine: {'line': b'[ 38%] Built target pkg_interfaces__rosidl_typesupport_cpp\n'}
+[2.003019] (-) TimerEvent: {}
+[2.008879] (pkg_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/pkg_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/pkg_interfaces/srv/face_detector__type_support.cpp.o\x1b[0m\n'}
+[2.037682] (pkg_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/pkg_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/pkg_interfaces/srv/detail/face_detector__type_support_c.cpp.o\x1b[0m\n'}
+[2.037970] (pkg_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/pkg_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pkg_interfaces/srv/detail/face_detector__type_support.c.o\x1b[0m\n'}
+[2.047975] (pkg_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libpkg_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[2.094466] (pkg_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking C shared library libpkg_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[2.098935] (pkg_interfaces) StdoutLine: {'line': b'[ 54%] Built target pkg_interfaces__rosidl_typesupport_c\n'}
+[2.103094] (-) TimerEvent: {}
+[2.129718] (pkg_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libpkg_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[2.133503] (pkg_interfaces) StdoutLine: {'line': b'[ 58%] Built target pkg_interfaces__rosidl_typesupport_introspection_c\n'}
+[2.166856] (pkg_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libpkg_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[2.203254] (-) TimerEvent: {}
+[2.225313] (pkg_interfaces) StdoutLine: {'line': b'[ 64%] Built target pkg_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[2.263195] (pkg_interfaces) StdoutLine: {'line': b'[ 67%] Built target pkg_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[2.303367] (-) TimerEvent: {}
+[2.403736] (-) TimerEvent: {}
+[2.453296] (pkg_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libpkg_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[2.503877] (-) TimerEvent: {}
+[2.541863] (pkg_interfaces) StdoutLine: {'line': b'[ 70%] Built target pkg_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[2.567378] (pkg_interfaces) StdoutLine: {'line': b'[ 70%] Built target pkg_interfaces\n'}
+[2.603997] (-) TimerEvent: {}
+[2.615021] (pkg_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[2.704161] (-) TimerEvent: {}
+[2.804490] (-) TimerEvent: {}
+[2.904825] (-) TimerEvent: {}
+[3.005184] (-) TimerEvent: {}
+[3.101847] (pkg_interfaces) StdoutLine: {'line': b'[ 74%] Built target pkg_interfaces__py\n'}
+[3.105263] (-) TimerEvent: {}
+[3.123685] (pkg_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/pkg_interfaces__rosidl_generator_py.dir/rosidl_generator_py/pkg_interfaces/srv/_face_detector_s.c.o\x1b[0m\n'}
+[3.205392] (-) TimerEvent: {}
+[3.279356] (pkg_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/pkg_interfaces/libpkg_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[3.305507] (-) TimerEvent: {}
+[3.331274] (pkg_interfaces) StdoutLine: {'line': b'[ 80%] Built target pkg_interfaces__rosidl_generator_py\n'}
+[3.353565] (pkg_interfaces) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/pkg_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/pkg_interfaces/_pkg_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[3.353909] (pkg_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/pkg_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/pkg_interfaces/_pkg_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[3.354100] (pkg_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/pkg_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/pkg_interfaces/_pkg_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[3.405618] (-) TimerEvent: {}
+[3.477010] (pkg_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/pkg_interfaces/pkg_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.477349] (pkg_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/pkg_interfaces/pkg_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.477465] (pkg_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/pkg_interfaces/pkg_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.505770] (-) TimerEvent: {}
+[3.527935] (pkg_interfaces) StdoutLine: {'line': b'[100%] Built target pkg_interfaces__rosidl_typesupport_c__pyext\n'}
+[3.528248] (pkg_interfaces) StdoutLine: {'line': b'[100%] Built target pkg_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[3.528360] (pkg_interfaces) StdoutLine: {'line': b'[100%] Built target pkg_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[3.541615] (pkg_interfaces) CommandEnded: {'returncode': 0}
+[3.542547] (pkg_interfaces) JobProgress: {'identifier': 'pkg_interfaces', 'progress': 'install'}
+[3.551960] (pkg_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/llw/git/ros2-study/chapt4_ws/build/pkg_interfaces'], 'cwd': '/home/llw/git/ros2-study/chapt4_ws/build/pkg_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'llw'), ('SSH_CLIENT', '192.168.31.104 1413 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/llw/.vscode-server/cli/servers/Stable-912bb683695358a54ae0c670461738984cbb5b95/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/llw/.vscode-server/cli/servers/Stable-912bb683695358a54ae0c670461738984cbb5b95/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/llw'), ('OLDPWD', '/home/llw/git/ros2-study/chapt4_ws/src'), ('TERM_PROGRAM_VERSION', '1.95.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-fc8d9d11-a567-4964-9ba2-a9e2c241c9a3.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/llw/.vscode-server/cli/servers/Stable-912bb683695358a54ae0c670461738984cbb5b95/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/llw/.vscode-server/cli/servers/Stable-912bb683695358a54ae0c670461738984cbb5b95/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/llw/git/ros2-study/chapt3/topic_ws/install:/home/llw/git/ros2-study/chapt2/chapt3_ws/install:/home/llw/git/ros2-study/chapt2/chapt2_ws/install:/home/llw/git/ros2-study/package_example_cpp/install:/home/llw/git/ros2-study/chapt2/install:/home/llw/git/ros2-study/package_example_cpp/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'llw'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', ':/usr/local/lib/pkgconfig:/usr/local/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/llw/.vscode-server/cli/servers/Stable-912bb683695358a54ae0c670461738984cbb5b95/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('DISPLAY', '192.168.31.104:0.0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-95c1c7973e.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/llw/git/ros2-study/chapt3/topic_ws/install/pkg_cpp_topic:/home/llw/git/ros2-study/chapt2/chapt3_ws/install/pkg_cpp:/home/llw/git/ros2-study/chapt2/chapt2_ws/install/demo_cpp_pkg:/home/llw/git/ros2-study/chapt2/install/demo_cpp_pkg:/home/llw/git/ros2-study/package_example_cpp/src/install/example_cpp:/home/llw/git/ros2-study/package_example_cpp/install/example_cpp:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/llw/git/ros2-study/chapt4_ws/build/pkg_interfaces'), ('SSH_CONNECTION', '192.168.31.104 1413 192.168.31.100 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/llw/git/ros2-study/chapt3/topic_ws/install/pkg_cpp_topic:/home/llw/git/ros2-study/chapt2/chapt3_ws/install/pkg_cpp:/home/llw/git/ros2-study/chapt2/chapt2_ws/install/demo_cpp_pkg:/home/llw/git/ros2-study/chapt2/install/demo_cpp_pkg:/home/llw/git/ros2-study/package_example_cpp/src/install/example_cpp:/home/llw/git/ros2-study/package_example_cpp/install/example_cpp:/opt/ros/humble')]), 'shell': False}
+[3.560088] (pkg_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.560764] (pkg_interfaces) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[3.561081] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/share/ament_index/resource_index/rosidl_interfaces/pkg_interfaces\n'}
+[3.570492] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[3.579855] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/detail/face_detector__functions.h\n'}
+[3.588185] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/detail/face_detector__struct.h\n'}
+[3.596401] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/detail/face_detector__type_support.h\n'}
+[3.604761] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/face_detector.h\n'}
+[3.605841] (-) TimerEvent: {}
+[3.612891] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/share/pkg_interfaces/environment/library_path.sh\n'}
+[3.621407] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/share/pkg_interfaces/environment/library_path.dsv\n'}
+[3.630043] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[3.638282] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/detail/face_detector__rosidl_typesupport_fastrtps_c.h\n'}
+[3.646808] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/detail/face_detector__builder.hpp\n'}
+[3.655243] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/detail/face_detector__struct.hpp\n'}
+[3.663852] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/detail/face_detector__traits.hpp\n'}
+[3.671970] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/face_detector.hpp\n'}
+[3.688856] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[3.697584] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/detail/face_detector__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.705964] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[3.706054] (-) TimerEvent: {}
+[3.714057] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/detail/face_detector__rosidl_typesupport_introspection_c.h\n'}
+[3.722887] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/detail/face_detector__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.731392] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/share/pkg_interfaces/environment/pythonpath.sh\n'}
+[3.739980] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/share/pkg_interfaces/environment/pythonpath.dsv\n'}
+[3.748865] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[3.757329] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[3.765873] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[3.774134] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[3.783014] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/__init__.py\n'}
+[3.791165] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/_pkg_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[3.799446] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/_pkg_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[3.806138] (-) TimerEvent: {}
+[3.807746] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/_pkg_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[3.816283] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/libpkg_interfaces__rosidl_generator_py.so\n'}
+[3.824932] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/pkg_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.833679] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/pkg_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.842039] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/pkg_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.850271] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/srv/__init__.py\n'}
+[3.858344] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/srv/_face_detector.py\n'}
+[3.866518] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/srv/_face_detector_s.c\n'}
+[3.874924] (pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/pkg_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.875231] (pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/pkg_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.875525] (pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/pkg_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.875749] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/share/pkg_interfaces/srv/FaceDetector.idl\n'}
+[3.884176] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/share/pkg_interfaces/srv/FaceDetector.srv\n'}
+[3.892723] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/share/pkg_interfaces/srv/FaceDetector_Request.msg\n'}
+[3.901270] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/share/pkg_interfaces/srv/FaceDetector_Response.msg\n'}
+[3.906217] (-) TimerEvent: {}
+[3.909734] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/share/ament_index/resource_index/package_run_dependencies/pkg_interfaces\n'}
+[3.919431] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/share/ament_index/resource_index/parent_prefix_path/pkg_interfaces\n'}
+[3.928479] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/share/pkg_interfaces/environment/ament_prefix_path.sh\n'}
+[3.936683] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/share/pkg_interfaces/environment/ament_prefix_path.dsv\n'}
+[3.944843] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/share/pkg_interfaces/environment/path.sh\n'}
+[3.952958] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/share/pkg_interfaces/environment/path.dsv\n'}
+[3.961242] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/share/pkg_interfaces/local_setup.bash\n'}
+[3.969525] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/share/pkg_interfaces/local_setup.sh\n'}
+[3.977880] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/share/pkg_interfaces/local_setup.zsh\n'}
+[3.986734] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/share/pkg_interfaces/local_setup.dsv\n'}
+[3.995079] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/share/pkg_interfaces/package.dsv\n'}
+[4.003608] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/share/ament_index/resource_index/packages/pkg_interfaces\n'}
+[4.006297] (-) TimerEvent: {}
+[4.011875] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/share/pkg_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[4.020425] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/share/pkg_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[4.028830] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/share/pkg_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[4.037126] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/share/pkg_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[4.045543] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/share/pkg_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[4.053764] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/share/pkg_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[4.061809] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/share/pkg_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[4.070029] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/share/pkg_interfaces/cmake/pkg_interfacesConfig.cmake\n'}
+[4.078458] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/share/pkg_interfaces/cmake/pkg_interfacesConfig-version.cmake\n'}
+[4.086572] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/share/pkg_interfaces/package.xml\n'}
+[4.094637] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/lib/libpkg_interfaces__rosidl_generator_c.so\n'}
+[4.095248] (pkg_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/lib/libpkg_interfaces__rosidl_generator_c.so" to ""\n'}
+[4.095373] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/lib/libpkg_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[4.096133] (pkg_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/lib/libpkg_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[4.096239] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/lib/libpkg_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[4.096802] (pkg_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/lib/libpkg_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[4.096900] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/lib/libpkg_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[4.097479] (pkg_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/lib/libpkg_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[4.097602] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/lib/libpkg_interfaces__rosidl_typesupport_c.so\n'}
+[4.098106] (pkg_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/lib/libpkg_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[4.098210] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/lib/libpkg_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[4.098766] (pkg_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/lib/libpkg_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[4.098861] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/lib/libpkg_interfaces__rosidl_typesupport_cpp.so\n'}
+[4.099412] (pkg_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/lib/libpkg_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[4.106375] (-) TimerEvent: {}
+[4.139819] (pkg_interfaces) StdoutLine: {'line': b"Listing '/home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces'...\n"}
+[4.139992] (pkg_interfaces) StdoutLine: {'line': b"Compiling '/home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/__init__.py'...\n"}
+[4.140052] (pkg_interfaces) StdoutLine: {'line': b"Listing '/home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/srv'...\n"}
+[4.140113] (pkg_interfaces) StdoutLine: {'line': b"Compiling '/home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/srv/__init__.py'...\n"}
+[4.140166] (pkg_interfaces) StdoutLine: {'line': b"Compiling '/home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/srv/_face_detector.py'...\n"}
+[4.145046] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/lib/libpkg_interfaces__rosidl_generator_py.so\n'}
+[4.145613] (pkg_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/lib/libpkg_interfaces__rosidl_generator_py.so" to ""\n'}
+[4.145715] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/share/pkg_interfaces/cmake/export_pkg_interfaces__rosidl_generator_cExport.cmake\n'}
+[4.145900] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/share/pkg_interfaces/cmake/export_pkg_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[4.146201] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/share/pkg_interfaces/cmake/export_pkg_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[4.146379] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/share/pkg_interfaces/cmake/export_pkg_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[4.146545] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/share/pkg_interfaces/cmake/export_pkg_interfaces__rosidl_generator_cppExport.cmake\n'}
+[4.146724] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/share/pkg_interfaces/cmake/export_pkg_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[4.146894] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/share/pkg_interfaces/cmake/export_pkg_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[4.147324] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/share/pkg_interfaces/cmake/pkg_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[4.147592] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/share/pkg_interfaces/cmake/pkg_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[4.148015] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/share/pkg_interfaces/cmake/pkg_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[4.148209] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/share/pkg_interfaces/cmake/pkg_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[4.148379] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/share/pkg_interfaces/cmake/pkg_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[4.148559] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/share/pkg_interfaces/cmake/pkg_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[4.148734] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/share/pkg_interfaces/cmake/pkg_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[4.148901] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/share/pkg_interfaces/cmake/pkg_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[4.149170] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/share/pkg_interfaces/cmake/export_pkg_interfaces__rosidl_generator_pyExport.cmake\n'}
+[4.149339] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/share/pkg_interfaces/cmake/export_pkg_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[4.152040] (pkg_interfaces) CommandEnded: {'returncode': 0}
+[4.174903] (pkg_interfaces) JobEnded: {'identifier': 'pkg_interfaces', 'rc': 0}
+[4.175699] (-) EventReactorShutdown: {}
