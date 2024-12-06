@@ -13,12 +13,18 @@ find_package(geometry_msgs REQUIRED)
 find_package(turtlesim REQUIRED)
 
 add_executable(turtle_control src/turtle_control.cpp)
+add_executable(partol_client src/partol_client.cpp)
 ament_target_dependencies(
   turtle_control 
   rclcpp 
   pkg_interfaces
   geometry_msgs
   turtlesim
+)
+ament_target_dependencies(
+  partol_client 
+  rclcpp 
+  pkg_interfaces
 )
 
 if(BUILD_TESTING)
@@ -34,7 +40,7 @@ if(BUILD_TESTING)
 endif()
 
 install(TARGETS
-  turtle_control  
+  turtle_control partol_client
   DESTINATION lib/${PROJECT_NAME}
 )
 
