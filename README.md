@@ -22,3 +22,4 @@ sudo apt install ros-humble-mrpt2 -y
 ```
 ros2 run tf2_tools view_frames 
 ```
+直接看tf树： ros2 run rqt_tf_tree rqt_tf_tree（需要先安装sudo apt-get install ros-humble-rqt-tf-tree）
