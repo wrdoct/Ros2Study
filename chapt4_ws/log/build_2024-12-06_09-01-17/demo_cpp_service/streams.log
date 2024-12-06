@@ -1,0 +1,56 @@
+[0.012s] Invoking command in '/home/llw/git/ros2-study/chapt4_ws/build/demo_cpp_service': CMAKE_PREFIX_PATH=/home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces:/home/llw/git/ros2-study/chapt4_ws/install/demo_cpp_service:/home/llw/git/ros2-study/chapt3/topic_ws/install/pkg_cpp_topic:/home/llw/git/ros2-study/chapt2/chapt3_ws/install/pkg_cpp:/home/llw/git/ros2-study/chapt2/chapt2_ws/install/demo_cpp_pkg:/home/llw/git/ros2-study/chapt2/install/demo_cpp_pkg:/home/llw/git/ros2-study/package_example_cpp/src/install/example_cpp:/home/llw/git/ros2-study/package_example_cpp/install/example_cpp:/opt/ros/humble /usr/bin/cmake --build /home/llw/git/ros2-study/chapt4_ws/build/demo_cpp_service -- -j16 -l16
+[0.039s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.177s] -- Found pkg_interfaces: 0.0.0 (/home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces/share/pkg_interfaces/cmake)
+[0.209s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.215s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.227s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.248s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.262s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.344s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.372s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.374s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.480s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.523s] -- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)
+[0.566s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.642s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.642s] -- Configured cppcheck include dirs: 
+[0.642s] -- Configured cppcheck exclude dirs and/or files: 
+[0.642s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.643s] -- Added test 'lint_cmake' to check CMake code style
+[0.644s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.645s] -- Added test 'uncrustify' to check C / C++ code style
+[0.645s] -- Configured uncrustify additional arguments: 
+[0.646s] -- Added test 'xmllint' to check XML markup files
+[0.647s] -- Configuring done
+[0.665s] -- Generating done
+[0.673s] -- Build files have been written to: /home/llw/git/ros2-study/chapt4_ws/build/demo_cpp_service
+[0.705s] [35m[1mConsolidate compiler generated dependencies of target turtle_control[0m
+[0.706s] [35m[1mConsolidate compiler generated dependencies of target partol_client[0m
+[0.727s] [ 50%] Built target turtle_control
+[0.728s] [ 75%] [32mBuilding CXX object CMakeFiles/partol_client.dir/src/partol_client.cpp.o[0m
+[4.818s] [100%] [32m[1mLinking CXX executable partol_client[0m
+[5.013s] [100%] Built target partol_client
+[5.025s] Invoked command in '/home/llw/git/ros2-study/chapt4_ws/build/demo_cpp_service' returned '0': CMAKE_PREFIX_PATH=/home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces:/home/llw/git/ros2-study/chapt4_ws/install/demo_cpp_service:/home/llw/git/ros2-study/chapt3/topic_ws/install/pkg_cpp_topic:/home/llw/git/ros2-study/chapt2/chapt3_ws/install/pkg_cpp:/home/llw/git/ros2-study/chapt2/chapt2_ws/install/demo_cpp_pkg:/home/llw/git/ros2-study/chapt2/install/demo_cpp_pkg:/home/llw/git/ros2-study/package_example_cpp/src/install/example_cpp:/home/llw/git/ros2-study/package_example_cpp/install/example_cpp:/opt/ros/humble /usr/bin/cmake --build /home/llw/git/ros2-study/chapt4_ws/build/demo_cpp_service -- -j16 -l16
+[5.027s] Invoking command in '/home/llw/git/ros2-study/chapt4_ws/build/demo_cpp_service': CMAKE_PREFIX_PATH=/home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces:/home/llw/git/ros2-study/chapt4_ws/install/demo_cpp_service:/home/llw/git/ros2-study/chapt3/topic_ws/install/pkg_cpp_topic:/home/llw/git/ros2-study/chapt2/chapt3_ws/install/pkg_cpp:/home/llw/git/ros2-study/chapt2/chapt2_ws/install/demo_cpp_pkg:/home/llw/git/ros2-study/chapt2/install/demo_cpp_pkg:/home/llw/git/ros2-study/package_example_cpp/src/install/example_cpp:/home/llw/git/ros2-study/package_example_cpp/install/example_cpp:/opt/ros/humble /usr/bin/cmake --install /home/llw/git/ros2-study/chapt4_ws/build/demo_cpp_service
+[5.035s] -- Install configuration: ""
+[5.035s] -- Up-to-date: /home/llw/git/ros2-study/chapt4_ws/install/demo_cpp_service/lib/demo_cpp_service/turtle_control
+[5.036s] -- Installing: /home/llw/git/ros2-study/chapt4_ws/install/demo_cpp_service/lib/demo_cpp_service/partol_client
+[5.038s] -- Set runtime path of "/home/llw/git/ros2-study/chapt4_ws/install/demo_cpp_service/lib/demo_cpp_service/partol_client" to ""
+[5.038s] -- Installing: /home/llw/git/ros2-study/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service//launch
+[5.038s] -- Installing: /home/llw/git/ros2-study/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service//launch/demo.launch.py
+[5.038s] -- Up-to-date: /home/llw/git/ros2-study/chapt4_ws/install/demo_cpp_service/share/ament_index/resource_index/package_run_dependencies/demo_cpp_service
+[5.038s] -- Up-to-date: /home/llw/git/ros2-study/chapt4_ws/install/demo_cpp_service/share/ament_index/resource_index/parent_prefix_path/demo_cpp_service
+[5.038s] -- Up-to-date: /home/llw/git/ros2-study/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/environment/ament_prefix_path.sh
+[5.038s] -- Installing: /home/llw/git/ros2-study/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/environment/ament_prefix_path.dsv
+[5.038s] -- Up-to-date: /home/llw/git/ros2-study/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/environment/path.sh
+[5.038s] -- Installing: /home/llw/git/ros2-study/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/environment/path.dsv
+[5.038s] -- Up-to-date: /home/llw/git/ros2-study/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/local_setup.bash
+[5.039s] -- Up-to-date: /home/llw/git/ros2-study/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/local_setup.sh
+[5.039s] -- Up-to-date: /home/llw/git/ros2-study/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/local_setup.zsh
+[5.039s] -- Installing: /home/llw/git/ros2-study/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/local_setup.dsv
+[5.039s] -- Installing: /home/llw/git/ros2-study/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/package.dsv
+[5.039s] -- Up-to-date: /home/llw/git/ros2-study/chapt4_ws/install/demo_cpp_service/share/ament_index/resource_index/packages/demo_cpp_service
+[5.039s] -- Up-to-date: /home/llw/git/ros2-study/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/cmake/demo_cpp_serviceConfig.cmake
+[5.039s] -- Up-to-date: /home/llw/git/ros2-study/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/cmake/demo_cpp_serviceConfig-version.cmake
+[5.039s] -- Up-to-date: /home/llw/git/ros2-study/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/package.xml
+[5.041s] Invoked command in '/home/llw/git/ros2-study/chapt4_ws/build/demo_cpp_service' returned '0': CMAKE_PREFIX_PATH=/home/llw/git/ros2-study/chapt4_ws/install/pkg_interfaces:/home/llw/git/ros2-study/chapt4_ws/install/demo_cpp_service:/home/llw/git/ros2-study/chapt3/topic_ws/install/pkg_cpp_topic:/home/llw/git/ros2-study/chapt2/chapt3_ws/install/pkg_cpp:/home/llw/git/ros2-study/chapt2/chapt2_ws/install/demo_cpp_pkg:/home/llw/git/ros2-study/chapt2/install/demo_cpp_pkg:/home/llw/git/ros2-study/package_example_cpp/src/install/example_cpp:/home/llw/git/ros2-study/package_example_cpp/install/example_cpp:/opt/ros/humble /usr/bin/cmake --install /home/llw/git/ros2-study/chapt4_ws/build/demo_cpp_service
