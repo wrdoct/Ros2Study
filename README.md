@@ -12,3 +12,9 @@ colcon build --packages-select example_cpp
 source install/setup.bash
 ros2 run example_cpp node_03
 ```
+
+3D旋转可视化：
+```
+sudo apt install ros-humble-mrpt2 -y
+3d-rotation-converter 
+```
