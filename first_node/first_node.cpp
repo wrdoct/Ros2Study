@@ -8,5 +8,12 @@ int main(int argc, char **argv)
     rclcpp::init(argc, argv);
     // 调用rclcpp的循环运行我们创建的first_node节点
     rclcpp::spin(std::make_shared<rclcpp::Node>("first_node"));
+
+    /*while (rclcpp::ok())
+    {
+        rclcpp::Rate loop_rate(1); // 1Hz
+        // 等待下一循环
+        loop_rate.sleep();
+    }*/
     return 0;
 }
