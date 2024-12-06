@@ -3,7 +3,7 @@
 #include <chrono>
 #include <ctime>
 
-using namespace std::chrono_literals; // 可以使用10 100s
+using namespace std::chrono_literals; // 可以使用10s 100s
 
 using Partol = pkg_interfaces::srv::Partol;
 
