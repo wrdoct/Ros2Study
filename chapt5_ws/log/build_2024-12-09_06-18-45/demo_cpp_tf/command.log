@@ -1,0 +1,6 @@
+Invoking command in '/home/llw/git/ros2-study/chapt5_ws/build/demo_cpp_tf': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/llw/git/ros2-study/chapt5_ws/src/demo_cpp_tf -DCMAKE_INSTALL_PREFIX=/home/llw/git/ros2-study/chapt5_ws/install/demo_cpp_tf
+Invoked command in '/home/llw/git/ros2-study/chapt5_ws/build/demo_cpp_tf' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/llw/git/ros2-study/chapt5_ws/src/demo_cpp_tf -DCMAKE_INSTALL_PREFIX=/home/llw/git/ros2-study/chapt5_ws/install/demo_cpp_tf
+Invoking command in '/home/llw/git/ros2-study/chapt5_ws/build/demo_cpp_tf': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/llw/git/ros2-study/chapt5_ws/build/demo_cpp_tf -- -j16 -l16
+Invoked command in '/home/llw/git/ros2-study/chapt5_ws/build/demo_cpp_tf' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/llw/git/ros2-study/chapt5_ws/build/demo_cpp_tf -- -j16 -l16
+Invoking command in '/home/llw/git/ros2-study/chapt5_ws/build/demo_cpp_tf': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/llw/git/ros2-study/chapt5_ws/build/demo_cpp_tf
+Invoked command in '/home/llw/git/ros2-study/chapt5_ws/build/demo_cpp_tf' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/llw/git/ros2-study/chapt5_ws/build/demo_cpp_tf
