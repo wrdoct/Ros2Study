@@ -1,0 +1,53 @@
+[0.013s] Invoking command in '/home/llw/git/ros2-study/chapt5_ws/build/demo_cpp_tf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/llw/git/ros2-study/chapt5_ws/build/demo_cpp_tf -- -j16 -l16
+[0.041s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.175s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.205s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.208s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.215s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.226s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.239s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.274s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.275s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.375s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.430s] -- Found tf2_ros: 0.25.8 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.534s] -- Found tf2_geometry_msgs: 0.25.8 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[0.537s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.539s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.542s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.619s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.619s] -- Configured cppcheck include dirs: 
+[0.619s] -- Configured cppcheck exclude dirs and/or files: 
+[0.619s] -- Added test 'lint_cmake' to check CMake code style
+[0.620s] -- Added test 'uncrustify' to check C / C++ code style
+[0.620s] -- Configured uncrustify additional arguments: 
+[0.621s] -- Added test 'xmllint' to check XML markup files
+[0.622s] -- Configuring done
+[0.640s] -- Generating done
+[0.647s] -- Build files have been written to: /home/llw/git/ros2-study/chapt5_ws/build/demo_cpp_tf
+[0.678s] [35m[1mConsolidate compiler generated dependencies of target static_tf_broadcaster[0m
+[0.689s] [ 25%] [32mBuilding CXX object CMakeFiles/dynamic_tf_broadcaster.dir/src/dynamic_tf_broadcaster.cpp.o[0m
+[0.701s] [ 75%] Built target static_tf_broadcaster
+[5.531s] [100%] [32m[1mLinking CXX executable dynamic_tf_broadcaster[0m
+[5.779s] [100%] Built target dynamic_tf_broadcaster
+[5.791s] Invoked command in '/home/llw/git/ros2-study/chapt5_ws/build/demo_cpp_tf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/llw/git/ros2-study/chapt5_ws/build/demo_cpp_tf -- -j16 -l16
+[5.803s] Invoking command in '/home/llw/git/ros2-study/chapt5_ws/build/demo_cpp_tf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/llw/git/ros2-study/chapt5_ws/build/demo_cpp_tf
+[5.811s] -- Install configuration: ""
+[5.811s] -- Up-to-date: /home/llw/git/ros2-study/chapt5_ws/install/demo_cpp_tf/lib/demo_cpp_tf/static_tf_broadcaster
+[5.811s] -- Installing: /home/llw/git/ros2-study/chapt5_ws/install/demo_cpp_tf/lib/demo_cpp_tf/dynamic_tf_broadcaster
+[5.813s] -- Set runtime path of "/home/llw/git/ros2-study/chapt5_ws/install/demo_cpp_tf/lib/demo_cpp_tf/dynamic_tf_broadcaster" to ""
+[5.813s] -- Up-to-date: /home/llw/git/ros2-study/chapt5_ws/install/demo_cpp_tf/share/ament_index/resource_index/package_run_dependencies/demo_cpp_tf
+[5.813s] -- Installing: /home/llw/git/ros2-study/chapt5_ws/install/demo_cpp_tf/share/ament_index/resource_index/parent_prefix_path/demo_cpp_tf
+[5.814s] -- Up-to-date: /home/llw/git/ros2-study/chapt5_ws/install/demo_cpp_tf/share/demo_cpp_tf/environment/ament_prefix_path.sh
+[5.814s] -- Installing: /home/llw/git/ros2-study/chapt5_ws/install/demo_cpp_tf/share/demo_cpp_tf/environment/ament_prefix_path.dsv
+[5.814s] -- Up-to-date: /home/llw/git/ros2-study/chapt5_ws/install/demo_cpp_tf/share/demo_cpp_tf/environment/path.sh
+[5.814s] -- Installing: /home/llw/git/ros2-study/chapt5_ws/install/demo_cpp_tf/share/demo_cpp_tf/environment/path.dsv
+[5.814s] -- Up-to-date: /home/llw/git/ros2-study/chapt5_ws/install/demo_cpp_tf/share/demo_cpp_tf/local_setup.bash
+[5.814s] -- Up-to-date: /home/llw/git/ros2-study/chapt5_ws/install/demo_cpp_tf/share/demo_cpp_tf/local_setup.sh
+[5.814s] -- Up-to-date: /home/llw/git/ros2-study/chapt5_ws/install/demo_cpp_tf/share/demo_cpp_tf/local_setup.zsh
+[5.814s] -- Installing: /home/llw/git/ros2-study/chapt5_ws/install/demo_cpp_tf/share/demo_cpp_tf/local_setup.dsv
+[5.814s] -- Installing: /home/llw/git/ros2-study/chapt5_ws/install/demo_cpp_tf/share/demo_cpp_tf/package.dsv
+[5.814s] -- Up-to-date: /home/llw/git/ros2-study/chapt5_ws/install/demo_cpp_tf/share/ament_index/resource_index/packages/demo_cpp_tf
+[5.815s] -- Up-to-date: /home/llw/git/ros2-study/chapt5_ws/install/demo_cpp_tf/share/demo_cpp_tf/cmake/demo_cpp_tfConfig.cmake
+[5.815s] -- Up-to-date: /home/llw/git/ros2-study/chapt5_ws/install/demo_cpp_tf/share/demo_cpp_tf/cmake/demo_cpp_tfConfig-version.cmake
+[5.815s] -- Up-to-date: /home/llw/git/ros2-study/chapt5_ws/install/demo_cpp_tf/share/demo_cpp_tf/package.xml
+[5.817s] Invoked command in '/home/llw/git/ros2-study/chapt5_ws/build/demo_cpp_tf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/llw/git/ros2-study/chapt5_ws/build/demo_cpp_tf
