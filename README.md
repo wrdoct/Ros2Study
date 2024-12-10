@@ -1,5 +1,7 @@
 wget http://fishros.com/install -O fishros && . fishros
 选择humble版本的ROS2即可
+# 安装的是humble版本的ROS，所以安装目录在/opt/ros/humble下  echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
+
 
 ```
 mkdir src
