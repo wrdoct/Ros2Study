@@ -26,3 +26,11 @@ sudo apt install ros-humble-mrpt2 -y
 ros2 run tf2_tools view_frames 
 ```
 直接看tf树： ros2 run rqt_tf_tree rqt_tf_tree（需要先安装sudo apt-get install ros-humble-rqt-tf-tree）
+
+运行时后面加上 & 可以在后台执行
+
+数据可视化工具 rviz2 
+
+数据记录工具 ros2 bag
+ros2 bag record /turtle1/cmd_vel
+ros2 bag play rosbag2_2024_12_10-09_42_14/
