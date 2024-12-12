@@ -47,3 +47,6 @@ Xacro(XML Macro)是基于XML的宏语言，用于简化URDF文件的创建和维
 使用工具将xacro文件转为urdf
 sudo apt install ros-$ROS_DISTRO-xacro
 xacro /home/llw/git/ros2-study/chapt6/src/fishbot_description/urdf/first_robot.xacro
+
+
+ros2 launch fishbot_description display_robot.launch.py model:=/home/llw/git/ros2-study/chapt6/src/fishbot_description/urdf/fishbot/fishbot.urdf.xacro
