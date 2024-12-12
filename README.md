@@ -7,7 +7,7 @@ wget http://fishros.com/install -O fishros && . fishros
 ```
 mkdir src
 cd src/
-ros2 pkg create example_cpp --build-type ament_cmake --dependencies rclcpp
+ros2 pkg create example_cpp --build-type ament_cmake --dependencies rclcpp --license Apache-2.0
 cd example_cpp/src
 touch node_01.cpp
 cd ../../..
@@ -34,3 +34,16 @@ ros2 run tf2_tools view_frames
 数据记录工具 ros2 bag
 ros2 bag record /turtle1/cmd_vel
 ros2 bag play rosbag2_2024_12_10-09_42_14/
+
+
+使用URDF创建机器人
+
+llw@llwubuntuserver:~/git/ros2-study/chapt6/src/fishbot_description/urdf$ urdf_to_graphviz first_robot.urdf 
+以下两个插件可以读取urdf中的关节配置
+sudo apt install ros-$ROS_DISTRO-joint-state-publisher
+sudo apt install ros-$ROS_DISTRO-robot-state-publisher
+
+Xacro(XML Macro)是基于XML的宏语言，用于简化URDF文件的创建和维护。
+使用工具将xacro文件转为urdf
+sudo apt install ros-$ROS_DISTRO-xacro
+xacro /home/llw/git/ros2-study/chapt6/src/fishbot_description/urdf/first_robot.xacro
