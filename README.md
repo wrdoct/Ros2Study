@@ -58,6 +58,10 @@ sudo apt install gazebo
 下载模型
 mkdir -p ~/.gazebo
 cd ~/.gazebo/
-git clone https://gitee.com/ohhuo/gazebo_models.git
-~/.gazebo/models
+git clone https://gitee.com/ohhuo/gazebo_models.git ~/.gazebo/models
 rm -rf ~/.gazebo/models/.git # 防止把.git误识别为模型
+
+在Gazebo中加载机器人模型
+sudo apt install ros-$ROS_DISTRO-gazebo-ros-pkgs
+
+ros2 launch fishbot_description gazebo_sim.launch.py 
