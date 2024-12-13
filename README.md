@@ -50,3 +50,14 @@ xacro /home/llw/git/ros2-study/chapt6/src/fishbot_description/urdf/first_robot.x
 
 
 ros2 launch fishbot_description display_robot.launch.py model:=/home/llw/git/ros2-study/chapt6/src/fishbot_description/urdf/fishbot/fishbot.urdf.xacro
+
+
+在Gazebo中完成机器人仿真
+sudo apt install gazebo
+之后输入 gazebo 打开
+下载模型
+mkdir -p ~/.gazebo
+cd ~/.gazebo/
+git clone https://gitee.com/ohhuo/gazebo_models.git
+~/.gazebo/models
+rm -rf ~/.gazebo/models/.git # 防止把.git误识别为模型
